@@ -4,9 +4,22 @@ const Experience = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const jobs = [
-    { title: "Senior Backend Engineer", company: "TechFlow Systems", loc: "Remote, USA", date: "Feb 2023 - Present", status: "Current" },
-    { title: "AI Research Lead", company: "DataMind Inc", loc: "San Francisco, CA", date: "Jan 2021 - Feb 2023", status: "Previous" },
-    { title: "Software Developer", company: "Innovate Ltd", loc: "London, UK", date: "Nov 2018 - Dec 2020", status: "Previous" }
+    {
+      title: "Computer Engineering Student",
+      company: "Atharva College of Engineering",
+      loc: "Mumbai, India",
+      date: "2023 - Present",
+      status: "3rd Year",
+      desc: "Specializing in high-performance system architectures and Artificial Intelligence. Leveraging academic foundations to architect professional-grade applications, including complex PWAs and data-driven dashboards. Demonstrating 'genius-level' proficiency in Full Stack Development through rigorous self-initiated projects and advanced problem solving."
+    },
+    {
+      title: "Full Stack Developer",
+      company: "Freelance / Open Source",
+      loc: "Remote",
+      date: "2022 - Present",
+      status: "Professional",
+      desc: "Delivering end-to-end web solutions with a focus on premium UI/UX, scalability, and clean code. Actively contributing to the developer community and consistently shipping production-ready applications like 'DAYS' (Financial Tracker) and 'ImageStegano' that solve real-world problems."
+    }
   ];
 
   return (
@@ -41,8 +54,7 @@ const Experience = () => {
             </div>
 
             <p className="job-desc">
-              Led the migration of legacy monoliths to microservices architecture, improving system uptime by 99.9%.
-              Collaborated with cross-functional teams to integrate AI models into production pipelines.
+              {jobs[activeTab].desc}
             </p>
 
             <div className="mini-thumbnails">

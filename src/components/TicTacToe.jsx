@@ -241,13 +241,14 @@ const TicTacToe = () => {
         .game-info {
            display: flex;
            flex-direction: column;
-           align-items: flex-start;
+           align-items: center;
+           text-align: center;
            color: #1a1a1a;
         }
 
         .wave-decoration {
            margin-bottom: 24px;
-           margin-left: -10px;
+           margin-left: 0;
            opacity: 0.8;
            color: #1e3a5f; /* Match theme */
         }

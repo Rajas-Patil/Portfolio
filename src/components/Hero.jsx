@@ -53,7 +53,7 @@ const Hero = () => {
             <div className="name-text">RAJAS</div>
           </div>
           <div className={`big-text-right ${loaded ? 'fade-in-up-delay' : ''}`}>
-            BACKEND<br />DEVELOPER
+            AI<br />DEVELOPER
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@ const Hero = () => {
 
         .cursive-title {
           position: absolute;
-          top: 20%;
+          top: 10%;
           left: 0;
           width: 100%;
           text-align: center;
@@ -258,7 +258,7 @@ const Hero = () => {
            text-transform: uppercase;
            letter-spacing: -6px;
            color: #000;
-           margin-left: 6px; 
+           margin-left: 0; 
         }
 
         .big-text-right {
@@ -266,7 +266,7 @@ const Hero = () => {
           line-height: 0.95;
           font-weight: 700;
           text-transform: uppercase;
-          text-align: right;
+          text-align: left;
           color: #111;
           letter-spacing: -1px;
         }
